@@ -2,7 +2,7 @@
 
 import socket, sys, os
 
-# USAGE : lab2client.py {host} {port} {protocol [GET, PUT, DEL]} {filename}
+# USAGE : client.py {host} {port} {protocol [GET, PUT, DEL]} {filename}
 host = sys.argv[1]
 port = int(sys.argv[2])
 
